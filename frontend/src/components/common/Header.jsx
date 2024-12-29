@@ -13,10 +13,10 @@ const Header = () => {
                             <Nav className="ms-auto">
                                 <Nav.Link href="/" className='nav-link'>Home</Nav.Link>
                                 <Nav.Link href="/about" className='nav-link'>About Us</Nav.Link>
-                                <Nav.Link href="#" className='nav-link'>Services</Nav.Link>
-                                <Nav.Link href="#" className='nav-link'>Projects</Nav.Link>
-                                <Nav.Link href="#" className='nav-link'>Blogs</Nav.Link>
-                                <Nav.Link href="#" className='nav-link'>Contact Us</Nav.Link>
+                                <Nav.Link href="/service" className='nav-link'>Services</Nav.Link>
+                                <Nav.Link href="/project" className='nav-link'>Projects</Nav.Link>
+                                <Nav.Link href="/blog" className='nav-link'>Blogs</Nav.Link>
+                                <Nav.Link href="/contact-us" className='nav-link'>Contact Us</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
